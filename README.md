@@ -22,15 +22,3 @@ The pipeline runs end-to-end from raw SCADA sensor data to a containerised predi
 | 5 | FastAPI inference server |
 | 6 | Demo client |
 | 7 | Docker deployment |
-
-## Getting started
-
-See [INSTALLATION_GUIDE.md](INSTALLATION_GUIDE.md) for step-by-step setup instructions (Python 3.12, Docker Desktop).
-
-```bash
-# Quick start
-cd Deployment
-cp .env.example .env
-docker compose up --build
-# Server available at http://localhost:8000
-```
