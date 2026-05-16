@@ -1,7 +1,7 @@
 # Downloads the trained model into the repo's models/ directory.
 # Run once before starting the inference server.
 # From the repo root:
-#   PowerShell -ExecutionPolicy Bypass -File Project\Server\download_model.ps1
+#   PowerShell -ExecutionPolicy Bypass -File Demo_Project\Server\download_model.ps1
 
 $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $dest      = "$scriptDir\rf_vent4.pkl"

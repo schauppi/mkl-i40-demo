@@ -2,10 +2,10 @@
 # Downloads the trained model into the repo's models/ directory.
 # Run once before starting the inference server.
 # From the repo root:
-#   chmod +x Project/Server/download_model.sh
-#   Project/Server/download_model.sh
+#   chmod +x Demo_Project/Server/download_model.sh
+#   Demo_Project/Server/download_model.sh
 # Or without chmod:
-#   bash Project/Server/download_model.sh
+#   bash Demo_Project/Server/download_model.sh
 
 set -euo pipefail
 
